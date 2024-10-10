@@ -79,13 +79,5 @@ time.innerHTML =mins+":"+secs+":"+millis;
     stop.addEventListener("click",function(){
         clearInterval(timer);  
        });
-       document.getElementById('clockButton').addEventListener('click', () => {
-        document.getElementById('clock').classList.remove('hidden');
-        document.getElementById('timer').classList.add('hidden');
-    });
-    
-    document.getElementById('timerButton').addEventListener('click', () => {
-        document.getElementById('timer').classList.remove('hidden');
-        document.getElementById('clock').classList.add('hidden');
-    });
+  
 });
